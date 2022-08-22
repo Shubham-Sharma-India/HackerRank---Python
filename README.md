@@ -85,3 +85,52 @@ def is_leap(year):
         return True
     return leap
 ```
+8. Loops
+```python
+if __name__ == '__main__':
+    n = int(input())
+for i in range (0, n):
+    print(i*i)
+```
+9. Python If-Else
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+if(n % 2) != 0:
+    print("Weird")
+elif (n >= 2) and (n <= 5):
+    print("Not Weird")
+elif (n >= 6) and (n <= 20):
+    print("Weird")
+elif (n > 20):
+    print("Not Weird")
+```
+10. Python: Division
+```python
+from __future__ import division
+
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    print(a // b)
+    print(a / b)
+```
+11. Arithmetic Operators
+```python
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    print(a + b)
+    print(a - b)
+    print(a * b)
+```
